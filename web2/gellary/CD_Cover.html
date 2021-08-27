@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><script language="JavaScript" type="text/javascript">
+  function writeFlash(title, w, h) {
+    document.write('<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9.0.0.0" width="' + w + '" height="' + h + '" ID="sf" VIEWASTEXT>')
+    document.write('  <param name="movie" value="' + title + '.swf" />')
+    document.write('  <param name="quality" value="high" />')
+    document.write('  <param name="wmode" value="window" />')
+    document.write('  <param name="allowScriptAccess" value="always" />')
+    document.write('  <param name="allowFullScreen" value="true" />')
+    document.write('  <embed src="' + title + '.swf" quality="high" name="sf" allowScriptAccess="always" allowFullScreen="true" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="' + w + '" height="' + h + '"></embed>')
+    document.write('</object>')
+  }
+</script>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Work</title>
+<style type="text/css">
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+</style>
+<link href="../Work_CSS.css" rel="stylesheet" type="text/css" />
+<script src="../Scripts/swfobject_modified.js" type="text/javascript"></script>
+<style type="text/css">
+a:link {
+	color: #F00;
+	text-decoration: none;
+}
+a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+a:hover {
+	color: #FF0;
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+</head>
+
+<body bgcolor="#000000" background="../image/crazykira-resources_002.png">
+<div id="Wapper">
+  <div id="leaft_box">
+    <div id="blank"></div>
+    <div id="menu_bar">
+      <table width="500" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="57"><a href="../index.html">Home</a></td>
+          <td width="61" height="0"><a href="Book_Cover.html">Cover</a></td>
+          <td width="81">CD Cover</td>
+          <td width="82"><a href="Brochure.html">Brochure</a></td>
+          <td width="88"><a href="File_Folder.html">File Folder</a></td>
+          <td width="65"><a href="Poster.html">Poster</a></td>
+          <td width="66"><a href="Others.html">Others</a></td>
+        </tr>
+      </table>
+    </div>
+    <div id="line_animation">
+      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="500" height="50" id="FlashID" title="Line">
+        <object type="application/x-shockwave-flash" data="../image/Line_Animation.swf" width="500" height="50">
+          <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+          <div>
+            <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+            <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
+          </div>
+          <!--[if !IE]>-->
+        </object>
+        <!--<![endif]-->
+      </object>
+    </div>
+  </div>
+  <div id="right_box"><img src="../image/Photos.png" width="350" height="150" alt="Photos" /></div>
+  <div id="CD_Album">
+    <table width="100%" height="80%">
+      <tr>
+        <td><center>
+          <script language="JavaScript" type="text/javascript">
+            writeFlash("CD_Cover", 720, 540)
+          </script>
+        </center></td>
+      </tr>
+    </table>
+  </div>
+  <div id="album"></div>
+</div>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+.CSS_Styles2 {
+	background-color: #000;
+}
+#wapper {
+	height: 750px;
+	width: 900px;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #000;
+}
+#Laft_Box {
+	background-color: #000;
+	float: left;
+	height: 750px;
+	width: 400px;
+}
+#Right_Box {
+	background-color: #000;
+	float: left;
+	height: 750px;
+	width: 500px;
+}
+#Bird {
+	background-color: #000;
+	float: left;
+	height: 250px;
+	width: 400px;
+}
+#Logo_animation {
+	background-color: #000;
+	float: left;
+	height: 300px;
+	width: 400px;
+}
+#Blank {
+	background-color: #000;
+	float: left;
+	height: 60px;
+	width: 500px;
+}
+#Pic {
+	background-color: #000;
+	float: left;
+	height: 350px;
+	width: 500px;
+}
+#Menu_bar {
+	background-color: #000;
+	float: left;
+	height: 50px;
+	width: 500px;
+	color: #00D5D5;
+}

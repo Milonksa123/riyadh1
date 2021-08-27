@@ -1,0 +1,150 @@
+.Work_CSS {
+}
+#Wapper {
+	background-color: #000;
+	height: 1800px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#leaft_box {
+	float: left;
+	height: 150px;
+	width: 550px;
+	background-color: #8b0304;
+}
+#right_box {
+	float: left;
+	height: 150px;
+	width: 350px;
+}
+#blank {
+	float: left;
+	height: 70px;
+	width: 500px;
+	margin-left: 50px;
+}
+
+#menu_bar {
+	float: left;
+	height: 20px;
+	width: 500px;
+	margin-left: 50px;
+	color: #F00;
+	text-align: left;
+}
+#line_animation {
+	float: left;
+	height: 40px;
+	width: 500px;
+	margin-left: 50px;
+	background-color: #000;
+}
+#Under {
+	float: left;
+	height: 300px;
+	width: 900px;
+	color: #FFF;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 24px;
+	text-align: center;
+}
+#album_cover {
+	background-color: #000;
+	float: left;
+	height: 700px;
+	width: 900px;
+}
+#Album_brochure {
+	float: left;
+	height: 700px;
+	width: 900px;
+}
+#Album_Cd {
+	float: left;
+	height: 700px;
+	width: 900px;
+}
+#Album_Folder {
+	float: left;
+	height: 700px;
+	width: 900px;
+}
+#Album_Ohters {
+	float: left;
+	height: 700px;
+	width: 900px;
+}
+#Album_poster {
+	float: left;
+	height: 700px;
+	width: 900px;
+}
+#CV_Tex {
+	float: left;
+	height: 1450px;
+	width: 800px;
+	margin-right: 50px;
+	margin-left: 50px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #03F;
+	background-color: #CCC;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+#My_photo {
+	float: left;
+	height: 300px;
+	width: 200px;
+}
+#My_photo {
+	float: left;
+	height: 160px;
+	width: 100px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+#Download_pdf {
+	float: left;
+	height: 25px;
+	width: 150px;
+	margin-top: 100px;
+	margin-left: 200px;
+	text-align: center;
+	padding-top: 3px;
+	background-color: #06F;
+}
+#download_doc {
+	float: left;
+	height: 25px;
+	width: 150px;
+	margin-top: 100px;
+	margin-left: 20px;
+	text-align: center;
+	padding-top: 3px;
+	background-color: #06F;
+}
+#CV {
+	float: left;
+	height: 70px;
+	width: 500px;
+	padding-top: 50px;
+	margin-left: 200px;
+	text-align: justify;
+	color: #FFF;
+	font-size: large;
+}
+#Adress {
+	float: left;
+	height: 300px;
+	width: 500px;
+	margin-left: 200px;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#CD_Album {
+	float: left;
+	height: 700px;
+	width: 900px;
+}
